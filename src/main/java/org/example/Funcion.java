@@ -10,7 +10,7 @@ public class Funcion {
             resultado = x * multiplicacionSucesiva(x, y - 1); //Multiplicamos la base(x) por si misma la cantidad de veces que sea la potencia(y).
         }
         return resultado; //Imprimimos el resultado :)
-    } //Recursividad de cola
+    }
 
     //apartado b)
     public double multiplicacionSucesiva2(double x, double y) {
@@ -25,7 +25,7 @@ public class Funcion {
             }
         }
         return resultado; //Imprimimos el resultado
-    } //Recursividad de división y conquista
+    }
 
 }
 
